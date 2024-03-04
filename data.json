@@ -1,0 +1,62 @@
+{
+  "rooms": [
+    {
+      "roomId": "R1",
+      "seatsAvailable": 4,
+      "amenities": "tv,ac,heater",
+      "pricePerhr": 100,
+      "maxCapacity": 6,
+      "location": "Floor 1, Wing A"
+    },
+    {
+      "roomId": "R2",
+      "seatsAvailable": 2,
+      "amenities": "projector,whiteboard",
+      "pricePerhr": 150,
+      "maxCapacity": 4,
+      "location": "Floor 2, Wing B"
+    },
+    {
+      "roomId": "R3",
+      "seatsAvailable": 8,
+      "amenities": "tv,ac",
+      "pricePerhr": 80,
+      "maxCapacity": 10,
+      "location": "Floor 3, Wing C"
+    }
+  ],
+  "bookings": [
+    {
+      "customer": "Perumal",
+      "bookingDate": "20240312",
+      "startTime": "12:00pm",
+      "endTime": "02:00pm",
+      "bookingID": "B1",
+      "roomId": "R1",
+      "status": "booked",
+      "booked_On": "02/03/2024",
+      "totalPrice": 200
+    },
+    {
+      "customer": "Nandhini",
+      "bookingDate": "20240307",
+      "startTime": "12:00pm",
+      "endTime": "05:00pm",
+      "bookingID": "B2",
+      "roomId": "R2",
+      "status": "completed",
+      "booked_On": "01/03/2024",
+      "totalPrice": 750
+    },
+    {
+      "customer":"Karthick Raja",
+      "bookingDate": "20240315",
+      "startTime": "09:00am",
+      "endTime": "05:00pm",
+      "bookingID": "B3",
+      "roomId": "R3",
+      "status": "pending",
+      "booked_On": "02/03/2024"
+    }
+  ]
+}
